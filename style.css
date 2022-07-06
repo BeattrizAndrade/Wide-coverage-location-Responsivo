@@ -1,0 +1,177 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    margin: 47px 0px 100px 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+.button-header {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    Width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logo-img {
+    width: 533.83px;
+    height: 466.9px;
+    left: 182.18px;
+    top: 277.2px;
+    margin-left: 121px;
+    margin-top: 163px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-top: 163px;
+
+
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    Width: 582px;
+    Height: 164px;
+    Top: 259px;
+    Left: 801px;
+    margin: 50px 57px 47px 84.98px;
+
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    left: 801px;
+    top: 553px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin: 0px 146px 55px 84.98px;
+
+}
+
+.link-main {
+    left: 25px;
+    right: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    text-decoration: none;
+    margin: 0px 527px 0px 84.98px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .link-header {
+        display: none;
+    }
+
+
+    .button-header {
+        box-sizing: border-box;
+        position: absolute;
+        width: 170px;
+        margin-top: 17px;
+        margin-left: 215px;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 250px;
+        height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        line-height: 30px;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        margin: 145px auto 0px auto;
+      
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        margin: 230px auto 0px auto;
+       
+        
+    }
+
+    .link-main {
+        font-size: 18px;
+        width: 112px;
+        height: 27px;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        margin: 430px auto 0px auto;
+    
+       
+    }
+
+    .logo-img {
+        width: 384px;
+        height: 334px;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        margin: 540px auto 0px auto;
+      
+    }
+
+
+
+
+
+}
